@@ -1,0 +1,47 @@
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+  background-color: #004375;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer div li a img {
+  max-height: 40px;
+  height: 40px;
+  width: auto;
+}
+
+@media screen and (min-width: 601px) {
+  footer .row {
+    display: inline-grid;
+  }
+
+  footer div.column div.wrapper.row {
+    margin: 20px 15px 20px 15px;
+  }
+
+  .companyInformation ul li {
+    margin: 10px 0px 10px 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer div li a img {
+    margin: 5px;
+  }
+
+  .companyInformation h1 {
+    margin: 0px 0px 10px 0px;
+  }
+}
